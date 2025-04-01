@@ -1,0 +1,18 @@
+[
+  {
+    "title": "The Rise of AI",
+    "subtitle": "How Artificial Intelligence is Changing the World",
+    "content": "Artificial Intelligence (AI) is transforming industries and reshaping the way we live and work. From healthcare to transportation, AI is making a significant impact.",
+    "author": "John Doe",
+    "category": "Technology",
+    "publishDate": "2023-01-15"
+  },
+  {
+    "title": "Healthy Eating Habits",
+    "subtitle": "Tips for a Balanced Diet",
+    "content": "Maintaining a balanced diet is essential for a healthy lifestyle. This article explores practical tips for incorporating nutritious foods into your daily routine.",
+    "author": "Jane Smith",
+    "category": "Health",
+    "publishDate": "2023-02-20"
+  }
+]

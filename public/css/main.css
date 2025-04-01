@@ -1,0 +1,155 @@
+body {
+    background-color: #522546;
+    color: #61dafb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background-color: #2C2C2C;
+    margin: 0;
+    padding: 10px;
+}
+
+ul li {
+    display: inline-flex;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #88304E;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    background-color: #F7374F;
+    a{
+        color: aliceblue;
+    }
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../assets/images.jpg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #2C2C2C;
+    color: #61dafb;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.blog-title {
+    font-size: 1.5em;
+    color: #F7374F;
+    margin-bottom: 10px;
+}
+
+.blog-subtitle {
+    font-size: 1.2em;
+    color: #88304E;
+    margin-bottom: 10px;
+}
+
+.blog-author, .blog-date {
+    font-size: 0.9em;
+    color: #61dafb;
+    margin-bottom: 5px;
+}
+
+.blog-content {
+    font-size: 1em;
+    color: aliceblue;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.blog-description {
+    font-size: 0.9em;
+    color: #F7374F;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.product-info {
+    background-color: #2C2C2C;
+    border: 1px solid #88304E;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blogcrt-container {
+    background-color: #2C2C2C;
+    border: 1px solid #88304E;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+}
+
+.blogcrt-container h3 {
+    color: #F7374F;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#blog-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #61dafb;
+    font-size: 1em;
+}
+
+#blog-form input, 
+#blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #88304E;
+    border-radius: 5px;
+    background-color: #522546;
+    color: aliceblue;
+    font-size: 1em;
+}
+
+#blog-form input:focus, 
+#blog-form textarea:focus {
+    outline: none;
+    border-color: #F7374F;
+    box-shadow: 0 0 5px #F7374F;
+}
+
+#blog-form button {
+    background-color: #F7374F;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#blog-form button:hover {
+    background-color: #88304E;
+}
+
